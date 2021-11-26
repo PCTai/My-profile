@@ -1,0 +1,11 @@
+
+@media (min-width:1024px){
+    html{
+      
+    }
+}
+@media (max-width:1024px){
+    header{
+        left: -125%;
+    }
+}

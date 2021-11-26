@@ -1,0 +1,22 @@
+
+@media (min-width:1024px){
+    #menu{
+        display: none;
+    }
+}
+@media (max-width:1024px){
+    header{
+        left: -125%;
+    }
+    body{
+        padding: 0 2rem;
+    }
+    
+}
+@media (max-width:486px){
+    header{
+        width: 100vw;
+    }
+    
+}
+

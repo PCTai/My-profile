@@ -1,0 +1,37 @@
+
+@media (min-width:1024px){
+    #menu{
+        display: none;
+    }
+}
+@media (max-width:1249px){
+    header{
+        left: -125%;
+    }
+    body{
+        padding: 0 2rem;
+    }
+    #menu{
+        display: none;
+    }
+    
+}
+@media (max-width:486px){
+    header{
+        width: 100vw;
+    }
+   .info,.counter{
+        width: 100%;
+   }
+    
+}
+@media (max-width:939px){
+    .row{
+        flex-direction: column;
+    }
+    .info,.counter{
+        width: 100%;
+   }
+    
+}
+

@@ -1,0 +1,184 @@
+:root{
+    --yellow: #f9ca24;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62,5%;
+    overflow: hidden;
+}
+::selection{
+    background-color: var(--yellow);
+    color: #333;
+
+}
+html::-webkit-scrollbar{
+    width: 2rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: #333;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--yellow);
+}
+body{
+    padding-left: 25rem;
+    background: #111;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    background-color: #1a1a1a;
+}
+
+.user img{
+    margin-top: 2rem;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.5rem solid var(--yellow);
+
+}
+header .user .name{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+header .user .post{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #eee;
+}
+header .navbar ul{
+    margin-top: 1rem;
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a:hover{
+    background-color: var(--yellow);
+}
+header .navbar ul li a{
+    display: block;
+    padding: 0.5rem 6rem;
+   margin-bottom: 0.8rem;
+   background-color: #333;
+   color: #fff;
+   font-size: 1.5rem;
+   border-radius: 5rem;
+   text-align: center;
+   cursor: pointer;
+}
+#menu:hover{
+    color: var(--yellow);
+}
+
+
+#menu{
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
+    padding: 1rem;
+    background-color: #222;
+    font-size: 2rem;
+    cursor: pointer;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+/* home */
+.home{
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+.home span{
+    color: var(--yellow);
+    margin-bottom: 2rem;
+    
+}
+.home h1{
+    margin-bottom: 2rem;
+    
+}
+/* about */
+.about{
+    color: #fff;
+    margin: 0 2rem;
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #eee;
+    
+}
+.heading span{
+    color: var(--yellow);
+    padding-right: 1rem;
+}
+.info{
+    flex: 1 1 48%;
+    width: 50%;
+}
+.info span{
+    color: var(--yellow);
+}
+.info h3{
+    padding: 0.5rem 0;
+}
+.row{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.counter{
+    flex:1 1 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.box{
+    background-color: #222;
+    width: 10rem;
+    text-align: center;
+    margin: 1rem;
+    height: 10rem;
+}
